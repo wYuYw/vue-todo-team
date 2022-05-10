@@ -1,24 +1,16 @@
 # vue-todo-toy
 
-## Project setup
-```
-npm install
-```
+## Challenge
+- Readable UI
+  - Sort by due date
+  - if D-day is 0 (have to be doned until today), highlighted
+  - Display active tasks above, completed tasks below
+- Interaction, but not too much
+  - Catch Attention
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Further Development
+- Modify todo content or due date
+- Catagorize tasks by topic
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Skills
+- Vue.js
