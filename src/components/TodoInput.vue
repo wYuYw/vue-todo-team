@@ -26,40 +26,14 @@ function loadTaskList() {
     todos.sort((a, b) => a.due - b.due);
   } else {
     console.log(loadedTodos);
-    todos = [
-  {
-    id: 0,
-    content: 'java rest api project',
-    due: 0,
-    done: false,
-  },
-  {
-    id: 1,
-    content: 'vue todo project',
-    due: 2,
-    done: false,
-  },
-  {
-    id: 2,
-    content: 'resume submit',
-    due: 5,
-    done: false,
-  },
-  ];
+    todos = [];
   }
   if (loadedCompletedTodos !== null && loadedCompletedTodos !== []) {
     completedTodos = JSON.parse(loadedCompletedTodos);
     completedTodos.sort((a, b) => a.due - b.due);
   } else {
     console.log(loadedCompletedTodos);
-    completedTodos = [
-      {
-        id: 3,
-        content: 'baekjooon 1212',
-        due: 0,
-        done: true,
-      },
-    ];
+    completedTodos = [];
   }
 }
 loadTaskList();
